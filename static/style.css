@@ -1,0 +1,132 @@
+body {
+
+    background-color: #f4f7fb;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+.card {
+
+    border-radius: 15px;
+
+}
+
+
+h2 {
+
+    color: #1f4e79;
+
+}
+
+
+.form-control {
+
+    border-radius: 8px;
+
+}
+
+
+.btn {
+
+    border-radius: 8px;
+
+}
+.history-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    background: #f4f6f9;
+}
+
+.history-card {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.history-card h1 {
+    text-align: center;
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1100px;
+}
+
+th {
+    background: #1f4e79;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 11px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+.high-risk {
+    background: #dc3545;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.low-risk {
+    background: #198754;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 25px auto 0;
+    padding: 12px 20px;
+    background: #1f4e79;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.back-button:hover {
+    background: #163a5c;
+}
+
+.history-button {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.history-button:hover {
+    background: #545b62;
+}
